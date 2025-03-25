@@ -18,40 +18,24 @@ body {
     position: absolute;
     width: 100px;
     height: 100px;
-    background-color: aqua;
-    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+    border: 5px solid white;
 }
 
-.front {
-    transform: translateZ(50px);
-}
+.front { transform: translateZ(50px); }
 
-.back {
-    transform: rotateY(180deg) translateZ(50px) ;
-}
+.back { transform: rotateY(180deg) translateZ(50px); }
 
-.top {
-    transform: rotateX(90deg) translateZ(50px) ;
-}
+.top { transform: rotateX(90deg) translateZ(50px); }
 
-.bottom {
-    transform: rotateX(-90deg) translateZ(50px) ;
-}
+.bottom { transform: rotateX(-90deg) translateZ(50px); }
 
-.left {
-    transform: rotateY(-90deg) translateZ(50px) ;
-}
+.left { transform: rotateY(-90deg) translateZ(50px); }
 
-.right {
-    transform: rotateY(90deg) translateZ(50px);
-}
+.right { transform: rotateY(90deg) translateZ(50px); }
 
 @keyframes rotate {
-    0% {
-        transform: rotateX(0deg) rotateY(0deg);
-    }
+    0% { transform: rotateX(0deg) rotateY(0deg); }
 
-    100% {
-        transform: rotateX(360deg) rotateY(360deg);
-    }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
 }
